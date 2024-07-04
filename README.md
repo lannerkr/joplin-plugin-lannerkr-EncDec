@@ -1,5 +1,17 @@
-# Joplin Plugin
+# Joplin Plugin EnC/DeC Mode
 
-This is your new Joplin plugin. It is suggested that you use this README file to document your plugin.
+Still in testing stage ...
 
-For information on how to build or publish the plugin, please see [GENERATOR_DOC.md](./GENERATOR_DOC.md)
+
+1. Encryption :
+
+select strings want to be encrypted, then click EnC/Dec button
+popup will ask you a password
+encter password and click 'OK', then your selected strings will be encrypted and displayed as 'ENC:xxxxxxxxxx'
+
+2. Decryption :
+
+select encrypted strings ( selecting must include 'ENC:' ), then click EnC/Dec button
+popup will ask you a password
+ -> encter password and click 'OK', then decrypted strings will be displayed in popup
+ -> encter password and click 'Permanent', then selected strings will be decrypted
