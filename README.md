@@ -26,7 +26,6 @@
 
 - Select encoded strings ( selecting must include 'ENC:' ), then click EnC/Dec button.
 - Popup will ask you a password.
-- 
-    -> Enter password and click 'OK', then decoded strings will be displayed in popup.
-    -> Enter password and click 'Permanent', then selected strings will be decoded.
+- -> Enter password and click 'OK', then decoded strings will be displayed in popup.
+- -> Enter password and click 'Permanent', then selected strings will be decoded.
 
