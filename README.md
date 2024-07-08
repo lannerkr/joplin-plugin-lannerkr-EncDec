@@ -2,6 +2,7 @@
 
 - encode and decode sensitive string with user password.
 - it's not secure encryption, it's just XOR encoding/decoding to hide sesitive strings to be displayed
+- 
 // XORCipher - Super simple encryption using XOR and Base64 (https://gist.github.com/sukima/XORCipher.js)
 //
 // Depends on [Underscore](http://underscorejs.org/).
@@ -25,6 +26,7 @@
 
 - Select encoded strings ( selecting must include 'ENC:' ), then click EnC/Dec button.
 - Popup will ask you a password.
+- 
     -> Enter password and click 'OK', then decoded strings will be displayed in popup.
     -> Enter password and click 'Permanent', then selected strings will be decoded.
 
