@@ -1,6 +1,6 @@
 {
   "name": "joplin-plugin-encdecmode",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "scripts": {
     "dist": "webpack --env joplin-plugin-config=buildMain && webpack --env joplin-plugin-config=buildExtraScripts && webpack --env joplin-plugin-config=createArchive",
     "prepare": "npm run dist",
@@ -15,7 +15,9 @@
     "publish"
   ],
   "devDependencies": {
+    "@joplin/lib": "~2.9",
     "@types/node": "^18.7.13",
+    "@types/sjcl": "^1.0.34",
     "chalk": "^4.1.0",
     "copy-webpack-plugin": "^11.0.0",
     "fs-extra": "^10.1.0",
@@ -24,7 +26,10 @@
     "ts-loader": "^9.3.1",
     "typescript": "^4.8.2",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0",
-    "@joplin/lib": "~2.9"
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "sjcl": "^1.0.8",
+    "ts-sjcl": "^1.0.8"
   }
 }
