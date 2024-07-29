@@ -1,4 +1,5 @@
 # Joplin Plugin EnC/DeC Mode
+# caution : version 1 and version 2 and version 3 are not compatable with each other
 
 - encode and decode sensitive string with user password.
 - it's not secure encryption, it's just XOR encoding/decoding to hide sesitive strings to be displayed
