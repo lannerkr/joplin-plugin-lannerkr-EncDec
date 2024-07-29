@@ -29,3 +29,6 @@
 - -> Enter password and click 'OK', then decoded strings will be displayed in popup.
 - -> Enter password and click 'Permanent', then selected strings will be decoded.
 
+3. Password verification is added in V2
+
+4. multibyte lanaguage support in V3
